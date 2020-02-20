@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>projeto </title>
+    <link rel="stylesheet" href="./css/swiper.css">
+    <style>
+     html, body {
+      position: relative;
+      height: 100%;
+    }
+    h1 {
+        color: red
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      background: red;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 200px;
+      background: #fff;
+      background: red;
+
+     
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .bt{
+
+      background: aquamarine;
+    }
+    
+    
+    </style>
+</head>
+<body class="bt">
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/kawan02.jpeg"></div >
+          <div class="swiper-slide"><img src="images/kawan03.png" ></div>
+          <div class="swiper-slide"><img src="images/kawan07.jpg"></div>
+          <div class="swiper-slide"><img src="images/kawan07.jpg"></div>
+          <div class="swiper-slide"><img src="images/kawan07.jpg"></div>
+          <div class="swiper-slide"> <img src="images/kawan07.jpg"></div>
+          <div class="swiper-slide"><img src="images/kawan07.jpg"></div>
+         
+        </div>
+        </div>
+        <hr>
+        <h1>ACESSE A GALERIA</h1>
+        <a href="./galeria.html">GALERIA</a>
+    
+    
+
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        
+            var swiper = new Swiper('.swiper-container', {
+              pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+              },
+            });
+          </script>
+        
+
+
+</body>
+</html>
